@@ -1,6 +1,6 @@
 # Data Scientist
 
-#### Technical Skills: Python, Pytorch,
+#### Technical Skills: Python, Pytorch, Stadistical Analysis.
 
 ### Education
 
@@ -12,7 +12,7 @@
 - Assessing the quality of AI-generated code. 
 - Resolving coding problems by crafting functional and efficient code solutions.
 - Developing test cases to validate the efficiency and effectiveness of the code.
-- 
+  
 **Applied Scintist and Data Analyst @ Universidad San Sebastian (_April 2023 - June 2024_)**
 - Conducted experimental setup, data collection, processing, and analysis for the characterization, simulation, and modeling of nano-materials.
 - Developed Physics-informed neural networks to estimate optical parameters for light absorption in nanomaterials.
