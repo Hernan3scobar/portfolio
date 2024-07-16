@@ -23,5 +23,8 @@ Dogs breeds classification
 - The model's accuracy improves significantly over 40 epochs, reaching 98.33% in training and 94.50% in testing, with corresponding decreases in loss from 1.6613 to 0.0524 and 1.4864 to 0.3544, respectively.
 [GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
 
+![Descripción de la imagen](/assets/img/imagen.jpg){: .interactive-img }
+
+
 ## Publications
 .- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. Int. J. Mol. Sci. 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489]
