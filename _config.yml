@@ -4,8 +4,3 @@ logo: /assets/imag/face_photo.jpg
 show_downloads: true
 theme: jekyll-theme-minimal
 
-
-include:
-  -assest
-sass:
-  style: compressed
