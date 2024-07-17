@@ -89,7 +89,7 @@ Dogs breeds classification
         <img src="assets/imag/accuracy.png" alt="Accuracy">
     </div>
     <div class="slides">
-        <img src="assets/imag/scores_accuracy.png" alt="Scores">
+        <img src="assets/imag/metrics.png" alt="Metrics">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
