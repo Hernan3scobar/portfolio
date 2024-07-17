@@ -80,7 +80,7 @@ Dogs breeds classification
         <img src="assets/imag/accuracy.png" alt="Accuracy">
     </div>
     <div class="slides">
-        <img src="/assets/imag/cnm.png" alt="Confution Matrix">
+        <img src="assets/imag/cnm.png" alt="Confution Matrix">
     </div>
     <div class="slides">
         <img src="assets/imag/loss.png" alt="Losses">
