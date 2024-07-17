@@ -20,7 +20,7 @@
 
 ### Projects
 Dogs breeds classification
-- The model's accuracy improves significantly over 40 epochs, reaching 98.33% in training and 94.50% in testing, with corresponding decreases in loss from 1.6613 to 0.0524 and 1.4864 to 0.3544, respectively.
+- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
 [GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
 
 ![Predictions](/assets/imag/prediction_vs_real.png) ![Scores, Acurracy and Confution Matrix ](/assets/imag/scores_accuracy.png)
