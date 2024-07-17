@@ -42,7 +42,7 @@ Dogs breeds classification
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .carousel { position: relative; max-width: 1000px; margin: auto; }
         .slides { display: none; }
-        img { vertical-align: middle; width: 500px; height: 350px; }
+        img { vertical-align: middle; width: 500px; height: auto; }
         .prev, .next { 
             cursor: pointer;
             position: absolute;
