@@ -138,4 +138,4 @@ Dogs breeds classification
 ## Publications
 .- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. Int. J. Mol. Sci. 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489]
 
-Para contactarme, puedes enviarme un correo a [miemail@example.com](mailto:miemail@example.com).
+For inquiries, feel free to email me at . [hernanescobarsanchez@gmail.com](mailto:hernanescobarsanchez@gmail.com).
