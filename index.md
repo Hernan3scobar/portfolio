@@ -42,7 +42,7 @@ Dogs breeds classification
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .carousel { position: relative; max-width: 1000px; margin: auto; }
         .slides { display: none; }
-        img { vertical-align: middle; width: 500px; height: 350; }
+        img { vertical-align: middle; width: 500px; height: 350px; }
         .prev, .next { 
             cursor: pointer;
             position: absolute;
@@ -77,7 +77,7 @@ Dogs breeds classification
 
 <div class="carousel">
     <div class="slides">
-        <img src="assets/imag/prediction_vs_real.png" alt="Predictions">
+        <img src="assets/imag/prediction_vs_true.png" alt="Predictions">
     </div>
     <div class="slides">
         <img src="assets/imag/cnm.png" alt="Confution Matrix">
@@ -99,6 +99,7 @@ Dogs breeds classification
     <span class="dot" onclick="currentSlide(1)"></span> 
     <span class="dot" onclick="currentSlide(2)"></span> 
     <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
 </div>
 
 <script>
