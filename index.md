@@ -7,12 +7,12 @@ title: Hernán Escobar-Sánchez
 
 #### Technical Skills: Python, Pytorch, Stadistical Analysis.
 
-### Education
+## Education
 
 - M.S., Physics	| Universidad de Concepción, Concepción, Chile (_September 2023_)	 			        		
 - B.S., Physics | Universidad de Concepción, Concepción, Chile (_December 2020_)
   
-### Work Experience
+## Work Experience
 **Data Scientist - AI code reviwer @ Revelo-Scale (_July 2024 - Present_)**
 - Assessing the quality of AI-generated code. 
 - Resolving coding problems by crafting functional and efficient code solutions.
@@ -23,8 +23,8 @@ title: Hernán Escobar-Sánchez
 - Developed Physics-informed neural networks to estimate optical parameters for light absorption in nanomaterials.
 - Contributed to and published a paper in an international scientific journal.
 
-### Projects
-Dogs breeds classification
+## Projects
+### Dogs breeds classification
 - The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
 [GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
 
