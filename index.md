@@ -3,7 +3,7 @@ layout: default
 title: Hernán Escobar-Sánchez
 ---
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
