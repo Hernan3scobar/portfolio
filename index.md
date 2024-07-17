@@ -83,7 +83,7 @@ Dogs breeds classification
         <img src="/assets/imag/cnm.png" alt="Confution Matrix">
     </div>
     <div class="slides">
-        <img src="/assets/imag/loss.png" alt="Losses">
+        <img src="assets/imag/loss.png" alt="Losses">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
