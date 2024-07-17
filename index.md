@@ -77,13 +77,19 @@ Dogs breeds classification
 
 <div class="carousel">
     <div class="slides">
-        <img src="assets/imag/accuracy.png" alt="Accuracy">
+        <img src="assets/imag/prediction_vs_true.png" alt="Predictions">
     </div>
     <div class="slides">
         <img src="assets/imag/cnm.png" alt="Confution Matrix">
     </div>
     <div class="slides">
         <img src="assets/imag/loss.png" alt="Losses">
+    </div>
+    <div class="slides">
+        <img src="assets/imag/accuracy.png" alt="Accuracy">
+    </div>
+    <div class="slides">
+        <img src="assets/imag/scores_accuracy.png" alt="Scores">
     </div>
 
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
