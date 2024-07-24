@@ -132,7 +132,7 @@ title: Hernán Escobar-Sánchez
 
 <!-- Description for Second Carousel -->
 <div class="description">
-    <p>Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
+    <p>Object detection: Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
 </div>
 
 <script>
