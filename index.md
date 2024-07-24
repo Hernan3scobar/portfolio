@@ -100,13 +100,20 @@ title: Hernán Escobar-Sánchez
     <span class="dot" onclick="currentSlide(4, 'carousel1', 'dots1')"></span> 
 </div>
 
+
+## Projects
+### Dogs breeds classification
+- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
+[GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
+
+
 <!-- Second Carousel -->
 <div class="carousel" id="carousel2">
     <div class="slides">
         <img src="assets/imag/sample.png" alt="Second Image 1">
     </div>
     <div class="slides">
-        <img src="assets/imag/result" alt="Second Image 2">
+        <img src="assets/imag/results.png" alt="Second Image 2">
     </div>
    
     <a class="prev" onclick="plusSlides(-1, 'carousel2')">&#10094;</a>
