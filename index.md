@@ -132,43 +132,45 @@ title: Hernán Escobar-Sánchez
 
 <!-- Description for Second Carousel -->
 <div class="description">
-    <p>Object detection: Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
+    <p>Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
 </div>
 
 <script>
+    // Store the current slide index for each carousel
+    let slideIndex = { 'carousel1': 1, 'carousel2': 1 };
+
     // Function to show the slides for a specific carousel
     function showSlides(n, carouselId, dotsId) {
         let i;
         let slides = document.getElementById(carouselId).getElementsByClassName("slides");
         let dots = document.getElementById(dotsId).getElementsByClassName("dot");
-        if (n > slides.length) {n = 1}    
-        if (n < 1) {n = slides.length}
+        if (n > slides.length) {slideIndex[carouselId] = 1}    
+        if (n < 1) {slideIndex[carouselId] = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
         }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[n-1].style.display = "block";  
-        dots[n-1].className += " active";
+        slides[slideIndex[carouselId]-1].style.display = "block";  
+        dots[slideIndex[carouselId]-1].className += " active";
     }
 
     // Function to handle the next/prev button click
     function plusSlides(n, carouselId) {
-        let currentSlide = parseInt(document.getElementById(carouselId).getAttribute("data-slide-index")) || 1;
-        currentSlide += n;
-        showSlides(currentSlide, carouselId, 'dots' + carouselId.charAt(carouselId.length - 1));
-        document.getElementById(carouselId).setAttribute("data-slide-index", currentSlide);
+        slideIndex[carouselId] += n;
+        showSlides(slideIndex[carouselId], carouselId, 'dots' + carouselId.charAt(carouselId.length - 1));
     }
 
     // Function to handle the dot click
     function currentSlide(n, carouselId, dotsId) {
+        slideIndex[carouselId] = n;
         showSlides(n, carouselId, dotsId);
     }
 
     // Initialize slides for all carousels
-    showSlides(1, 'carousel1', 'dots1');
-    showSlides(1, 'carousel2', 'dots2');
+    showSlides(slideIndex['carousel1'], 'carousel1', 'dots1');
+    showSlides(slideIndex['carousel2'], 'carousel2', 'dots2');
 </script>
 
 </body>
