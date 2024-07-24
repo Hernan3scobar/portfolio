@@ -28,16 +28,6 @@ title: Hernán Escobar-Sánchez
 
 ## Projects
 
-### Dogs Breeds Classification
-- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
-- [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
-
-## Publications
-
-- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. *Int. J. Mol. Sci.* 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489](https://doi.org/10.3390/ijms242216489)
-
-For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto:hernanescobarsanchez@gmail.com).
-
 ---
 
 <!-- HTML for Carousels -->
@@ -110,6 +100,14 @@ For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto
     <span class="dot" onclick="currentSlide(3, 'carousel1', 'dots1')"></span> 
     <span class="dot" onclick="currentSlide(4, 'carousel1', 'dots1')"></span> 
 </div>
+<!-- Description for firts Carousel -->
+<div class="description">
+    <p> Dogs Breeds Classification
+- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
+- [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
+
+.</p>
+</div>
 
 <!-- Second Carousel -->
 <div class="carousel" id="carousel2">
@@ -130,7 +128,7 @@ For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto
 
 <!-- Description for Second Carousel -->
 <div class="description">
-    <p>Here is an explanation of the images in the second carousel. Each image illustrates different aspects of the topic being discussed. Make sure to review each image to understand the full context.</p>
+    <p>Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
 </div>
 
 <script>
@@ -171,3 +169,11 @@ For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto
 
 </body>
 </html>
+
+## Publications
+
+- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. *Int. J. Mol. Sci.* 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489](https://doi.org/10.3390/ijms242216489)
+
+
+
+For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto:hernanescobarsanchez@gmail.com).
