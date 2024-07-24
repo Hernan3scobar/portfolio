@@ -3,34 +3,44 @@ layout: default
 title: Hernán Escobar-Sánchez
 ---
 
-# Data Scientist
+# Hernán Escobar-Sánchez
 
-#### Technical Skills: Python, Pytorch, Stadistical Analysis.
+## Data Scientist
+
+#### Technical Skills: Python, Pytorch, Statistical Analysis.
 
 ## Education
 
-- M.S., Physics	| Universidad de Concepción, Concepción, Chile (_September 2023_)	 			        		
+- M.S., Physics | Universidad de Concepción, Concepción, Chile (_September 2023_)
 - B.S., Physics | Universidad de Concepción, Concepción, Chile (_December 2020_)
-  
+
 ## Work Experience
-**Data Scientist - AI code reviwer @ Revelo-Scale (_July 2024 - Present_)**
-- Assessing the quality of AI-generated code. 
+
+**Data Scientist - AI Code Reviewer @ Revelo-Scale** (_July 2024 - Present_)
+- Assessing the quality of AI-generated code.
 - Resolving coding problems by crafting functional and efficient code solutions.
 - Developing test cases to validate the efficiency and effectiveness of the code.
-  
-**Applied Scientist and Data Analyst @ Universidad San Sebastián  (_April 2023 - June 2024_)**
+
+**Applied Scientist and Data Analyst @ Universidad San Sebastián** (_April 2023 - June 2024_)
 - Conducted experimental setup, data collection, processing, and analysis for the characterization, simulation, and modeling of nano-materials.
-- Developed Physics-informed neural networks to estimate optical parameters for light absorption in nanomaterials.
+- Developed physics-informed neural networks to estimate optical parameters for light absorption in nanomaterials.
 - Contributed to and published a paper in an international scientific journal.
 
 ## Projects
-### Dogs breeds classification
+
+### Dogs Breeds Classification
 - The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
-[GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
+- [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
 
+## Publications
 
+- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. *Int. J. Mol. Sci.* 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489](https://doi.org/10.3390/ijms242216489)
 
+For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto:hernanescobarsanchez@gmail.com).
 
+---
+
+<!-- HTML for Carousels -->
 
 <html lang="en">
 <head>
@@ -71,6 +81,7 @@ title: Hernán Escobar-Sánchez
             transition: background-color 0.6s ease;
         }
         .active, .dot:hover { background-color: #717171; }
+        .description { text-align: center; padding: 20px; font-size: 18px; }
     </style>
 </head>
 <body>
@@ -81,7 +92,7 @@ title: Hernán Escobar-Sánchez
         <img src="assets/imag/prediction_vs_true.png" alt="Predictions">
     </div>
     <div class="slides">
-        <img src="assets/imag/cnm.png" alt="Confution Matrix">
+        <img src="assets/imag/cnm.png" alt="Confusion Matrix">
     </div>
     <div class="slides">
         <img src="assets/imag/loss.png" alt="Losses">
@@ -100,13 +111,6 @@ title: Hernán Escobar-Sánchez
     <span class="dot" onclick="currentSlide(4, 'carousel1', 'dots1')"></span> 
 </div>
 
-
-## Projects
-### Dogs breeds classification
-- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
-[GitHub repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
-
-
 <!-- Second Carousel -->
 <div class="carousel" id="carousel2">
     <div class="slides">
@@ -115,7 +119,6 @@ title: Hernán Escobar-Sánchez
     <div class="slides">
         <img src="assets/imag/results.png" alt="Second Image 2">
     </div>
-   
     <a class="prev" onclick="plusSlides(-1, 'carousel2')">&#10094;</a>
     <a class="next" onclick="plusSlides(1, 'carousel2')">&#10095;</a>
 </div>
@@ -123,7 +126,11 @@ title: Hernán Escobar-Sánchez
 <div class="dots" id="dots2">
     <span class="dot" onclick="currentSlide(1, 'carousel2', 'dots2')"></span> 
     <span class="dot" onclick="currentSlide(2, 'carousel2', 'dots2')"></span> 
-   
+</div>
+
+<!-- Description for Second Carousel -->
+<div class="description">
+    <p>Here is an explanation of the images in the second carousel. Each image illustrates different aspects of the topic being discussed. Make sure to review each image to understand the full context.</p>
 </div>
 
 <script>
@@ -164,7 +171,3 @@ title: Hernán Escobar-Sánchez
 
 </body>
 </html>
-## Publications
-.- Escobar-Sánchez, H.; Carril Pardo, C.; Benito, N.; Hernández-Montelongo, J.; Nancucheo, I.; Recio-Sánchez, G. Plasmonic and Photothermal Effects of CuS Nanoparticles Biosynthesized from Acid Mine Drainage with Potential Drug Delivery Applications. Int. J. Mol. Sci. 2023, 24, 16489. [https://doi.org/10.3390/ijms242216489]
-
-For inquiries, feel free to email me at: [hernanescobarsanchez@gmail.com](mailto:hernanescobarsanchez@gmail.com).
