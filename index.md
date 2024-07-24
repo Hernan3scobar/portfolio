@@ -71,7 +71,8 @@ title: Hernán Escobar-Sánchez
             transition: background-color 0.6s ease;
         }
         .active, .dot:hover { background-color: #717171; }
-        .description { text-align: center; padding: 20px; font-size: 18px; }
+        .description { text-align: justify; padding: 20px; font-size: 15px;  margin: 0 auto; 
+            max-width: 800px; }
     </style>
 </head>
 <body>
