@@ -42,7 +42,7 @@ title: Hernán Escobar-Sánchez
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
         .carousel { position: relative; max-width: 1000px; margin: auto; }
         .slides { display: none; }
-        img { vertical-align: middle; width: 500px; height: auto; }
+        img { vertical-align: middle; width: 100%; height: auto; }
         .prev, .next { 
             cursor: pointer;
             position: absolute;
@@ -71,8 +71,13 @@ title: Hernán Escobar-Sánchez
             transition: background-color 0.6s ease;
         }
         .active, .dot:hover { background-color: #717171; }
-        .description { text-align: justify; padding: 20px; font-size: 15px;  margin: 0 auto; 
-            max-width: 800px; }
+        .description { 
+            text-align: justify; 
+            padding: 20px; 
+            font-size: 15px; 
+            margin: 0 auto; 
+            max-width: 800px; 
+        }
     </style>
 </head>
 <body>
@@ -101,13 +106,11 @@ title: Hernán Escobar-Sánchez
     <span class="dot" onclick="currentSlide(3, 'carousel1', 'dots1')"></span> 
     <span class="dot" onclick="currentSlide(4, 'carousel1', 'dots1')"></span> 
 </div>
-<!-- Description for firts Carousel -->
-<div class="description">
-    <p> Dogs Breeds Classification
-- The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing, with corresponding decreases in loss from 1.1626 to 0.03894 and 0.6186 to 0.0206, respectively.
-- [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)
 
-.</p>
+<!-- Description for First Carousel -->
+<div class="description">
+    <p>Dogs Breeds Classification: The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing. The loss decreases from 1.1626 to 0.03894 and from 0.6186 to 0.0206, respectively. <br>
+    [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)</p>
 </div>
 
 <!-- Second Carousel -->
@@ -129,7 +132,7 @@ title: Hernán Escobar-Sánchez
 
 <!-- Description for Second Carousel -->
 <div class="description">
-    <p>Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
+    <p>Object detection: Utilized YOLO (You Only Look Once) for accurate mask-wearing classification in images. The deployment of this model is straightforward, making it user-friendly and effective for staff. YOLO’s efficiency in processing ensures reliable results for mask detection with minimal setup.</p>
 </div>
 
 <script>
