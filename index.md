@@ -110,7 +110,7 @@ title: Hernán Escobar-Sánchez
 <!-- Description for First Carousel -->
 <div class="description">
     <p>Dogs Breeds Classification: The model's accuracy improves significantly over 10 epochs, reaching 98.84% in training and 99.67% in testing. The loss decreases from 1.1626 to 0.03894 and from 0.6186 to 0.0206, respectively. <br>
-    [GitHub Repository](https://github.com/Hernan3scobar/CNN_images_classification/tree/main)</p>
+    <a href="https://github.com/Hernan3scobar/CNN_images_classification/tree/main" target="_blank">GitHub Repository</a></p>
 </div>
 
 <!-- Second Carousel -->
