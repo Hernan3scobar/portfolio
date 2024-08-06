@@ -44,8 +44,8 @@ title: Hernán Escobar-Sánchez
         .slides { display: none; }
         img { vertical-align: middle; width: 100%; height: auto; }
         .carousel img {
-            width: 800px; /* Set your desired width */
-            height: 450px; /* Set your desired height */
+            width: 600px; /* Set  width */
+            height: 350px; /* Set  height */
         }
         .prev, .next { 
             cursor: pointer;
