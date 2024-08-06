@@ -43,6 +43,10 @@ title: Hernán Escobar-Sánchez
         .carousel { position: relative; max-width: 1000px; margin: auto; }
         .slides { display: none; }
         img { vertical-align: middle; width: 100%; height: auto; }
+        .carousel img {
+            width: 800px; /* Set your desired width */
+            height: 450px; /* Set your desired height */
+        }
         .prev, .next { 
             cursor: pointer;
             position: absolute;
